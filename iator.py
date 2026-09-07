@@ -273,12 +273,12 @@ with tab1:
           conn.close()
 
 with tab2:
-  st.header("Khu vực Quản trị dành cho Cán bộ địa chính xã Ia RSai")
+  st.header("Khu vực Quản trị dành cho Cán bộ địa chính xã Ia Tôr")
 
   password = st.text_input(
       "Nhập mật khẩu quản lý để tiếp tục:", type="password"
   )
-  ADMIN_PASSWORD = "phuc123"
+  ADMIN_PASSWORD = "sang123"
 
   if password == ADMIN_PASSWORD:
     st.success("Xác thực thành công! Chào mừng cán bộ quản lý.")
